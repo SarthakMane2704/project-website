@@ -168,6 +168,11 @@ textarea {
   text-transform: uppercase;
 }
 
+.hero .eyebrow {
+  font-size: 1.05rem;
+  margin-bottom: 1.25rem;
+}
+
 .hero h1,
 .section-heading h2,
 .contact-copy h2 {
