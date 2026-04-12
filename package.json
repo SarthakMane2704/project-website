@@ -1,0 +1,9 @@
+{
+  "name": "consulting-portfolio",
+  "version": "1.0.0",
+  "description": "Premium consulting-style portfolio website served with Node.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  }
+}

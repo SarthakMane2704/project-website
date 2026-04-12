@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arjun Mehta | Consulting Portfolio</title>
+  <meta name="description" content="A premium consulting-style portfolio showcasing case competition decks, achievements, and contact information.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="#hero">Arjun Mehta</a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#achievements">Achievements</a>
+          <a href="#competitions">Competitions</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="container hero-content reveal">
+          <p class="eyebrow">Consulting Portfolio</p>
+          <h1>Strategy thinking, structured storytelling, measurable outcomes.</h1>
+          <p class="hero-copy">
+            I build sharp, insight-led case competition decks that turn ambiguous business problems
+            into clear recommendations. This portfolio highlights selected work across growth,
+            market entry, and transformation challenges.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#competitions">View My Work</a>
+            <a class="btn btn-secondary" href="#" download>Download Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About Me</p>
+            <h2>Bringing consulting discipline to every deck.</h2>
+          </div>
+          <div class="about-grid reveal">
+            <p>
+              I am a case competition enthusiast focused on structured problem solving, executive-ready communication,
+              and practical recommendations grounded in data and market context.
+            </p>
+            <p>
+              My work spans strategy, go-to-market, operations, and business model redesign, with a strong emphasis
+              on clarity, synthesis, and presentation quality.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="achievements">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Achievements</p>
+            <h2>Snapshot of performance and impact.</h2>
+          </div>
+          <div class="achievement-grid">
+            <article class="metric-card reveal">
+              <p class="metric-value">18+</p>
+              <p class="metric-label">Case competitions participated</p>
+            </article>
+            <article class="metric-card reveal">
+              <p class="metric-value">9</p>
+              <p class="metric-label">Podium finishes across national events</p>
+            </article>
+            <article class="metric-card reveal">
+              <p class="metric-value">5</p>
+              <p class="metric-label">Winning decks in strategy-led challenges</p>
+            </article>
+            <article class="metric-card reveal">
+              <p class="metric-value">12K+</p>
+              <p class="metric-label">Slides designed and refined in total</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section competitions-section" id="competitions">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Competitions</p>
+            <h2>Selected case competition decks.</h2>
+          </div>
+          <div class="competitions-toolbar reveal">
+            <p class="section-copy">
+              Explore consulting decks submitted to leading campus and national competitions.
+            </p>
+            <span class="competition-count" id="competition-count">Loading decks...</span>
+          </div>
+          <div class="competitions-grid" id="competitions-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container contact-layout">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Open to strategy, consulting, and business problem-solving conversations.</h2>
+            <p>
+              Reach out for collaborations, portfolio reviews, or opportunities in consulting and strategy.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:arjun.mehta@example.com">arjun.mehta@example.com</a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn Profile</a>
+            </div>
+          </div>
+          <form class="contact-form reveal">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name">
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="your@email.com">
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Tell me a bit about your project or opportunity."></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <template id="competition-card-template">
+    <article class="competition-card reveal">
+      <div class="card-topline">
+        <span class="position-badge"></span>
+        <span class="organizer"></span>
+      </div>
+      <h3 class="competition-title"></h3>
+      <p class="competition-description"></p>
+      <div class="tag-row"></div>
+      <div class="card-actions">
+        <a class="btn btn-primary view-link" target="_blank" rel="noreferrer">View Deck</a>
+        <a class="btn btn-ghost download-link" target="_blank" rel="noreferrer">Download Deck</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
