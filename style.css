@@ -411,25 +411,36 @@ textarea {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .position-badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 2rem;
-  padding: 0.2rem 0.9rem;
+  min-height: 2.4rem;
+  padding: 0.35rem 1rem;
   border-radius: var(--radius-sm);
-  color: var(--accent-deep);
-  background: var(--accent-soft);
-  font-size: 0.88rem;
-  font-weight: 700;
+  color: #7a4b00;
+  background: linear-gradient(135deg, #fff2b8 0%, #f7cf63 55%, #e3ab2c 100%);
+  border: 1px solid rgba(227, 171, 44, 0.45);
+  box-shadow: 0 10px 20px rgba(227, 171, 44, 0.18);
+  font-size: 0.96rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
 }
 
 .college-name {
-  color: var(--muted);
-  font-size: 0.92rem;
-  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.3rem;
+  padding: 0.32rem 0.9rem;
+  border-radius: var(--radius-sm);
+  color: var(--accent-deep);
+  background: rgba(146, 47, 164, 0.1);
+  border: 1px solid rgba(146, 47, 164, 0.2);
+  font-size: 0.94rem;
+  font-weight: 700;
 }
 
 .competition-title {
