@@ -1,16 +1,17 @@
 :root {
-  --bg: #f7f5fb;
-  --surface: rgba(255, 255, 255, 0.88);
+  --bg: #faf7fb;
+  --surface: rgba(255, 255, 255, 0.92);
   --surface-solid: #ffffff;
-  --surface-strong: #f3eefc;
-  --text: #181126;
-  --muted: #675d7d;
-  --border: rgba(99, 70, 166, 0.12);
-  --accent: #6f42c1;
-  --accent-deep: #52279d;
-  --accent-soft: rgba(111, 66, 193, 0.12);
-  --shadow-soft: 0 20px 50px rgba(54, 31, 98, 0.08);
-  --shadow-hover: 0 26px 60px rgba(54, 31, 98, 0.14);
+  --surface-strong: #f1e5f3;
+  --text: #2e1038;
+  --muted: #6f477a;
+  --border: rgba(113, 34, 129, 0.14);
+  --accent: #922fa4;
+  --accent-deep: #4f1258;
+  --accent-mid: #6a1b78;
+  --accent-soft: rgba(146, 47, 164, 0.14);
+  --shadow-soft: 0 20px 50px rgba(79, 18, 88, 0.08);
+  --shadow-hover: 0 28px 64px rgba(79, 18, 88, 0.16);
   --radius-xl: 28px;
   --radius-lg: 22px;
   --radius-md: 16px;
@@ -35,7 +36,8 @@ body {
   font-family: "Inter", sans-serif;
   color: var(--text);
   background:
-    radial-gradient(circle at top left, rgba(128, 90, 213, 0.11), transparent 34%),
+    radial-gradient(circle at top left, rgba(146, 47, 164, 0.12), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(80, 18, 88, 0.08), transparent 28%),
     linear-gradient(180deg, #ffffff 0%, var(--bg) 100%);
   line-height: 1.6;
 }
@@ -75,7 +77,7 @@ textarea {
   z-index: 100;
   padding: 1rem 0;
   backdrop-filter: blur(18px);
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.84);
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
 }
 
@@ -153,10 +155,38 @@ textarea {
   padding-top: 3rem;
 }
 
+.hero-layout {
+  display: grid;
+  grid-template-columns: minmax(320px, 0.85fr) minmax(0, 1.15fr);
+  gap: 3.5rem;
+  align-items: center;
+}
+
 .hero-content {
   max-width: 760px;
-  text-align: center;
-  margin: 0 auto;
+}
+
+.hero-visual {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-photo-frame {
+  position: relative;
+  width: min(100%, 400px);
+  padding: 0.9rem;
+  border-radius: 36px;
+  background: linear-gradient(135deg, rgba(146, 47, 164, 0.18), rgba(79, 18, 88, 0.08));
+  box-shadow: var(--shadow-hover);
+}
+
+.hero-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1.15;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 28px;
 }
 
 .eyebrow {
@@ -169,7 +199,7 @@ textarea {
 }
 
 .hero .eyebrow {
-  font-size: 1.05rem;
+  font-size: 3.15rem;
   margin-bottom: 1.25rem;
 }
 
@@ -192,7 +222,12 @@ textarea {
 
 .hero-copy {
   max-width: 680px;
-  margin: 1.5rem auto 0;
+  margin: 1.5rem 0 0;
+}
+
+.hero-copy-strong {
+  color: var(--text);
+  font-weight: 600;
 }
 
 .hero-actions,
@@ -203,7 +238,6 @@ textarea {
 }
 
 .hero-actions {
-  justify-content: center;
   margin-top: 2rem;
 }
 
@@ -227,19 +261,19 @@ textarea {
 .btn:hover,
 .btn:focus-visible {
   transform: translateY(-2px);
-  box-shadow: 0 16px 28px rgba(82, 39, 157, 0.16);
+  box-shadow: 0 16px 28px rgba(79, 18, 88, 0.18);
 }
 
 .btn-primary {
   color: #ffffff;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-deep) 100%);
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-mid) 58%, var(--accent-deep) 100%);
 }
 
 .btn-secondary,
 .btn-ghost {
   color: var(--accent-deep);
   background: rgba(255, 255, 255, 0.74);
-  border-color: rgba(82, 39, 157, 0.16);
+  border-color: rgba(79, 18, 88, 0.18);
 }
 
 .btn-secondary:hover,
@@ -267,10 +301,11 @@ textarea {
 }
 
 .achievement-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: nowrap;
   gap: 1.25rem;
   margin-top: 2.2rem;
+  align-items: stretch;
 }
 
 .metric-card,
@@ -284,13 +319,23 @@ textarea {
 }
 
 .metric-card {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 1.8rem;
-  transition: transform var(--transition), box-shadow var(--transition);
+  min-height: 220px;
+  background: #ffffff;
+  text-align: center;
+  transition: transform var(--transition), box-shadow var(--transition), background-color var(--transition), border-color var(--transition), color var(--transition);
 }
 
 .metric-card:hover {
   transform: translateY(-6px);
   box-shadow: var(--shadow-hover);
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-mid) 60%, var(--accent-deep) 100%);
+  border-color: rgba(79, 18, 88, 0.35);
+  color: #ffffff;
 }
 
 .metric-value {
@@ -298,11 +343,24 @@ textarea {
   font-size: 2.4rem;
   font-weight: 800;
   letter-spacing: -0.05em;
+  transition: color var(--transition);
 }
 
 .metric-label {
   margin: 0.75rem 0 0;
   color: var(--muted);
+  transition: color var(--transition);
+}
+
+.metric-card:hover .metric-value,
+.metric-card:hover .metric-label {
+  color: #ffffff;
+}
+
+.achievements-note {
+  margin: 1.4rem 0 0;
+  color: var(--muted);
+  font-size: 1rem;
 }
 
 .competitions-toolbar {
@@ -342,7 +400,7 @@ textarea {
 .competition-card:hover {
   transform: translateY(-8px);
   box-shadow: var(--shadow-hover);
-  border-color: rgba(111, 66, 193, 0.2);
+  border-color: rgba(146, 47, 164, 0.24);
 }
 
 .card-topline {
@@ -442,7 +500,7 @@ textarea {
   width: 100%;
   margin-top: 0.5rem;
   padding: 0.95rem 1rem;
-  border: 1px solid rgba(111, 66, 193, 0.14);
+  border: 1px solid rgba(146, 47, 164, 0.16);
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.92);
   color: var(--text);
@@ -452,8 +510,8 @@ textarea {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: rgba(111, 66, 193, 0.45);
-  box-shadow: 0 0 0 4px rgba(111, 66, 193, 0.1);
+  border-color: rgba(146, 47, 164, 0.4);
+  box-shadow: 0 0 0 4px rgba(146, 47, 164, 0.1);
 }
 
 .empty-state {
@@ -461,7 +519,7 @@ textarea {
   padding: 2rem;
   border-radius: var(--radius-xl);
   background: var(--surface);
-  border: 1px dashed rgba(111, 66, 193, 0.24);
+  border: 1px dashed rgba(146, 47, 164, 0.26);
   color: var(--muted);
   text-align: center;
 }
@@ -478,9 +536,36 @@ textarea {
 }
 
 @media (max-width: 1024px) {
-  .achievement-grid,
+  .hero-layout,
   .competitions-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero-layout {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hero-copy {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .achievement-grid {
+    flex-wrap: wrap;
+  }
+
+  .metric-card {
+    flex: 1 1 calc(50% - 0.625rem);
   }
 
   .contact-layout,
@@ -520,7 +605,7 @@ textarea {
     padding: 1.2rem;
     border-radius: 24px;
     background: rgba(255, 255, 255, 0.96);
-    border: 1px solid rgba(111, 66, 193, 0.12);
+    border: 1px solid rgba(146, 47, 164, 0.16);
     box-shadow: var(--shadow-soft);
     opacity: 0;
     pointer-events: none;
@@ -539,6 +624,10 @@ textarea {
     padding-top: 5rem;
   }
 
+  .hero-layout {
+    gap: 2rem;
+  }
+
   .hero h1,
   .section-heading h2,
   .contact-copy h2 {
@@ -552,7 +641,18 @@ textarea {
     align-items: stretch;
   }
 
-  .achievement-grid,
+  .hero-photo-frame {
+    width: min(100%, 320px);
+  }
+
+  .achievement-grid {
+    flex-direction: column;
+  }
+
+  .metric-card {
+    flex-basis: auto;
+  }
+
   .competitions-grid {
     grid-template-columns: 1fr;
   }
