@@ -1,50 +1,11 @@
 [
   {
-    "title": "National Strategy Sprint",
-    "position": "Winner",
-    "organizer": "IIM Ahmedabad",
-    "description": "Designed a growth roadmap for a digital-first consumer brand with phased expansion priorities and channel economics.",
-    "tags": ["Strategy", "Growth", "GTM"],
-    "link": "https://drive.google.com/file/d/1A2B3C4D5E6F7G8H9I0J/view"
-  },
-  {
-    "title": "Boardroom Business Challenge",
-    "position": "1st Runner-Up",
-    "organizer": "BCG Campus Case",
-    "description": "Built a market entry recommendation for a health-tech platform balancing speed, feasibility, and partnership strategy.",
-    "tags": ["Market Entry", "HealthTech", "Partnerships"],
-    "link": "https://drive.google.com/file/d/2B3C4D5E6F7G8H9I0J1K/view"
-  },
-  {
-    "title": "Future of Retail Case Cup",
-    "position": "Finalist",
-    "organizer": "IIM Bangalore",
-    "description": "Crafted an omnichannel profitability plan focused on assortment redesign, customer retention, and store productivity.",
-    "tags": ["Retail", "Omnichannel", "Profitability"],
-    "link": "https://drive.google.com/file/d/3C4D5E6F7G8H9I0J1K2L/view"
-  },
-  {
-    "title": "CXO Transformation Challenge",
-    "position": "Winner",
-    "organizer": "ISB Hyderabad",
-    "description": "Recommended a transformation blueprint for a legacy services company with capability, operating model, and pricing shifts.",
-    "tags": ["Transformation", "Operations", "Pricing"],
-    "link": "https://drive.google.com/file/d/4D5E6F7G8H9I0J1K2L3M/view"
-  },
-  {
-    "title": "Consulting League Finals",
-    "position": "Top 3",
-    "organizer": "XLRI Jamshedpur",
-    "description": "Delivered a turn-around strategy for a manufacturing player by prioritizing portfolio pruning and productivity levers.",
-    "tags": ["Turnaround", "Manufacturing", "Operations"],
-    "link": "https://drive.google.com/file/d/5E6F7G8H9I0J1K2L3M4N/view"
-  },
-  {
-    "title": "Launchpad Case Invitational",
-    "position": "Merit Award",
-    "organizer": "IIT Delhi",
-    "description": "Proposed a launch plan for a B2B SaaS product through segmentation, value proposition refinement, and sales motion design.",
-    "tags": ["B2B SaaS", "Segmentation", "Sales"],
-    "link": "https://drive.google.com/file/d/6F7G8H9I0J1K2L3M4N5O/view"
+    "title": "Plannerd 6.0",
+    "type": "National Strategy Case Study Competition",
+    "position": "🥇 Winner",
+    "college": "DJSCE Mumbai",
+    "description": "We diagnosed why Ola collapsed, identified the single priority to stabilise it in 12-18 months, built a three-vertical recovery strategy with specific actions, and defined the one trade-off Ola had to accept to survive.",
+    "tags": ["Strategy", "Crisis", "Consumer Trust"],
+    "link": "https://drive.google.com/file/d/1nX2JAVBfbpuIbvYubNa5n23wsWKvUwcf/view?usp=sharing"
   }
 ]

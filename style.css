@@ -426,7 +426,7 @@ textarea {
   font-weight: 700;
 }
 
-.organizer {
+.college-name {
   color: var(--muted);
   font-size: 0.92rem;
   font-weight: 500;
@@ -436,6 +436,13 @@ textarea {
   margin: 0;
   font-size: 1.35rem;
   line-height: 1.25;
+}
+
+.competition-type {
+  margin: -0.35rem 0 0;
+  color: var(--accent-deep);
+  font-size: 0.95rem;
+  font-weight: 600;
 }
 
 .competition-description {

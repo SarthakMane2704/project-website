@@ -87,14 +87,13 @@ const App = {
     competitions.forEach((competition) => {
       const card = template.content.firstElementChild.cloneNode(true);
       card.querySelector(".position-badge").textContent = competition.position;
-      card.querySelector(".organizer").textContent = competition.organizer;
+      card.querySelector(".college-name").textContent = competition.college;
       card.querySelector(".competition-title").textContent = competition.title;
+      card.querySelector(".competition-type").textContent = competition.type;
       card.querySelector(".competition-description").textContent = competition.description;
 
       const viewLink = card.querySelector(".view-link");
-      const downloadLink = card.querySelector(".download-link");
       viewLink.href = competition.link;
-      downloadLink.href = competition.link;
 
       const tagRow = card.querySelector(".tag-row");
       (competition.tags || []).forEach((tag) => {
