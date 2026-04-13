@@ -433,6 +433,7 @@ textarea {
 .college-name {
   display: inline-flex;
   align-items: center;
+  gap: 0.45rem;
   min-height: 2.3rem;
   padding: 0.32rem 0.9rem;
   border-radius: var(--radius-sm);
@@ -441,6 +442,13 @@ textarea {
   border: 1px solid rgba(146, 47, 164, 0.2);
   font-size: 0.94rem;
   font-weight: 700;
+}
+
+.college-logo {
+  width: 1.1rem;
+  height: 1.1rem;
+  object-fit: contain;
+  flex: 0 0 auto;
 }
 
 .competition-title {

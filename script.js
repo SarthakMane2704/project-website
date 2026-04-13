@@ -87,7 +87,18 @@ const App = {
     competitions.forEach((competition) => {
       const card = template.content.firstElementChild.cloneNode(true);
       card.querySelector(".position-badge").textContent = competition.position;
-      card.querySelector(".college-name").textContent = competition.college;
+      const collegeName = card.querySelector(".college-name");
+      const collegeNameText = card.querySelector(".college-name-text");
+      const collegeLogo = card.querySelector(".college-logo");
+      collegeNameText.textContent = competition.college;
+
+      if (competition.collegeLogo) {
+        collegeLogo.src = competition.collegeLogo;
+        collegeLogo.alt = `${competition.college} logo`;
+      } else {
+        collegeLogo.remove();
+      }
+
       card.querySelector(".competition-title").textContent = competition.title;
       card.querySelector(".competition-type").textContent = competition.type;
       card.querySelector(".competition-description").textContent = competition.description;
