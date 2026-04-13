@@ -53,5 +53,59 @@
     "description": "Decoded the Indigo crisis of December 2025 and suggested measures to recover customer retention and pilot workforce while abiding to DGCA guidlines.",
     "tags": ["Consumer Trust", "Compliance Issue", "Crisis"],
     "link": "https://drive.google.com/file/d/1hZE3JKztV1_X3xQEijbSUxfQk5qRSaTV/view?usp=sharing"
+  },
+  {
+    "title": "Strat Edge",
+    "type": "National Strategy Case Study Competition",
+    "position": "Top 7 National Finalist",
+    "college": "IIM Rohtak",
+    "description": "Built an AI-driven system that improves exam outcomes by optimizing student behaviour, not content.",
+    "tags": ["SaaS", "Student Target", "AI"],
+    "link": "https://drive.google.com/file/d/1qFnwJ94UXaOOTDHy8NI2aLA8kmmaShQq/view?usp=sharing"
+  },
+  {
+    "title": "Markaholic",
+    "type": "National Strategy Case Study Competition",
+    "position": "Top 6 National Finalist",
+    "college": "IIM Kashipur",
+    "description": "Built a B2B EdTech infrastructure that converts internships into verified employability signals for colleges, hiring platforms, and employers.",
+    "tags": ["EdTech", "Growth Strategy", "B2B"],
+    "link": "https://drive.google.com/file/d/1MYu8F6nvjNP_XDx3lILjtroQ3XELpfnM/view?usp=sharing"
+  },
+  {
+    "title": "Samasya",
+    "type": "National Operations Case Study Competition",
+    "position": "Top 6 National Finalist",
+    "college": "SIMSREE",
+    "description": "Designed a hub-based global supply chain strategy to scale into 8 markets while reducing inventory risk, capex, and operational complexity.",
+    "tags": ["Supply Chain", "Sea Freight", "Market Entry"],
+    "link": "https://drive.google.com/file/d/1jzDBmunhs8mrmonD_KpqYnT8srJ-jRwN/view?usp=sharing"
+  },
+  {
+    "title": "BCG x Ace the Case",
+    "type": "National Policy Case Study Competition",
+    "position": "Top 30 Teams",
+    "college": "IIM Lucknow",
+    "description": "Designed a national gig worker welfare system combining income stabilization, portable benefits, and skill-based career progression.",
+    "tags": ["Supply Chain", "Sea Freight", "Market Entry"],
+    "link": "https://drive.google.com/file/d/1Y9cvwSg1yYhUwGvaOVigMdjq3O8V9yRa/view?usp=sharing"
+  },
+  {
+    "title": "Springboard",
+    "type": "National Operations Case Study Competition",
+    "position": "Top 20 Teams",
+    "college": "SIMSREE",
+    "description": "Built a CRM-led retention system to reduce client dormancy and drive repeat sales for a seasonal B2B dessert brand.",
+    "tags": ["CRM", "Client Retention", "Operational Issues"],
+    "link": "https://drive.google.com/file/d/1lfev9NTK1cQjRt7abuCJJ4AAr0B0y8zd/view?usp=sharing"
+  },
+  {
+    "title": "Just in Case",
+    "type": "National Strategy Case Study Competition",
+    "position": "Top 20 Teams",
+    "college": "SIMSREE",
+    "description": "Built a profitability-focused quick commerce strategy by improving unit economics, integrating kiranas, and optimizing supply, pricing, and rider systems.",
+    "tags": ["Operations", "Supply Chain", "Unit Economics"],
+    "link": "https://drive.google.com/file/d/1KCEgjrbmmN5DJbJvn57lS1C0UNaqXKrO/view?usp=sharing"
   }
 ]
