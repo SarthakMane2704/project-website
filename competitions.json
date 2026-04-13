@@ -14,6 +14,7 @@
     "type": "National Finance Case Study Competition",
     "position": "\ud83e\udd47 Winner",
     "college": "NIT Durgapur",
+    "collegeLogo": "NIT_Durgapur_Logo.svg.png",
     "description": "Analyzed internal control and governance failures in Reliance Home Finance and proposed a debt-recovery and compliance reform framework to restore lender confidence and prevent future fraud.",
     "tags": ["Finance", "Compliance Crisis", "RBI Regulations"],
     "link": "https://drive.google.com/file/d/1jDHbZP0xrcd8Nh4pjo4_kYyDojgPn8iT/view?usp=sharing"
@@ -23,6 +24,7 @@
     "type": "National Product Case Study Competition",
     "position": "\ud83e\udd48 2nd Place",
     "college": "SCMS, Pune",
+    "collegeLogo": "scms pune.png",
     "description": "A hypothetical brand story around the counterintuitive idea of a shoe designed to get wet without ever revealing the product using the dark ghost strategy to spark curiosity and conversation before the launch.",
     "tags": ["Product Management", "Marketing", "Brand Story"],
     "link": "https://drive.google.com/file/d/18pf96cy9olka_CFCFm3I5orD1GoAx95x/view?usp=sharing"
@@ -32,6 +34,7 @@
     "type": "National Marketing Case Study Competition",
     "position": "\ud83e\udd49 3rd Place",
     "college": "IIT Madras",
+    "collegeLogo": "IIT_Madras_Logo.svg.png",
     "description": "A hypothetical brand story around the counterintuitive idea of a shoe designed to get wet without ever revealing the product using the dark ghost strategy to spark curiosity and conversation before the launch.",
     "tags": ["Product Management", "Marketing", "Brand Story"],
     "link": "https://drive.google.com/file/d/18pf96cy9olka_CFCFm3I5orD1GoAx95x/view?usp=sharing"
@@ -41,6 +44,7 @@
     "type": "National Product Case Study Competition",
     "position": "\ud83e\udd49 3rd Place",
     "college": "IIM Bangalore",
+    "collegeLogo": "IIM_Bangalore_Logo.svg.png",
     "description": "Expanded the Sabyasachi fashion label into a wider segment of luxury interior design for HNIs using the brand's image as its synergy.",
     "tags": ["Market Expansion", "Brand Image", "Consumer Targeting"],
     "link": "https://drive.google.com/file/d/1pETXScdNpDByVImyWid7e1m1VBCFBfPu/view?usp=sharing"
@@ -50,6 +54,7 @@
     "type": "National Strategy Case Study Competition",
     "position": "Top 5 National Finalist",
     "college": "IIM Lucknow",
+    "collegeLogo": "IIM_Lucknow_Logo.svg.png",
     "description": "Decoded the Indigo crisis of December 2025 and suggested measures to recover customer retention and pilot workforce while abiding to DGCA guidlines.",
     "tags": ["Consumer Trust", "Compliance Issue", "Crisis"],
     "link": "https://drive.google.com/file/d/1hZE3JKztV1_X3xQEijbSUxfQk5qRSaTV/view?usp=sharing"
@@ -59,6 +64,7 @@
     "type": "National Strategy Case Study Competition",
     "position": "Top 7 National Finalist",
     "college": "IIM Rohtak",
+    "collegeLogo": "Indian_Institute_of_Management_Rohtak_logo.jpg",
     "description": "Built an AI-driven system that improves exam outcomes by optimizing student behaviour, not content.",
     "tags": ["SaaS", "Student Target", "AI"],
     "link": "https://drive.google.com/file/d/1qFnwJ94UXaOOTDHy8NI2aLA8kmmaShQq/view?usp=sharing"
@@ -68,6 +74,7 @@
     "type": "National Strategy Case Study Competition",
     "position": "Top 6 National Finalist",
     "college": "IIM Kashipur",
+    "collegeLogo": "kashipur.jpg",
     "description": "Built a B2B EdTech infrastructure that converts internships into verified employability signals for colleges, hiring platforms, and employers.",
     "tags": ["EdTech", "Growth Strategy", "B2B"],
     "link": "https://drive.google.com/file/d/1MYu8F6nvjNP_XDx3lILjtroQ3XELpfnM/view?usp=sharing"
@@ -77,6 +84,7 @@
     "type": "National Operations Case Study Competition",
     "position": "Top 6 National Finalist",
     "college": "SIMSREE",
+    "collegeLogo": "simsree.jpg",
     "description": "Designed a hub-based global supply chain strategy to scale into 8 markets while reducing inventory risk, capex, and operational complexity.",
     "tags": ["Supply Chain", "Sea Freight", "Market Entry"],
     "link": "https://drive.google.com/file/d/1jzDBmunhs8mrmonD_KpqYnT8srJ-jRwN/view?usp=sharing"
@@ -95,6 +103,7 @@
     "type": "National Operations Case Study Competition",
     "position": "Top 20 Teams",
     "college": "SIMSREE",
+    "collegeLogo": "simsree.jpg",
     "description": "Built a CRM-led retention system to reduce client dormancy and drive repeat sales for a seasonal B2B dessert brand.",
     "tags": ["CRM", "Client Retention", "Operational Issues"],
     "link": "https://drive.google.com/file/d/1lfev9NTK1cQjRt7abuCJJ4AAr0B0y8zd/view?usp=sharing"
@@ -103,7 +112,8 @@
     "title": "Just in Case",
     "type": "National Strategy Case Study Competition",
     "position": "Top 20 Teams",
-    "college": "SIMSREE",
+    "college": "IIM Amrisar",
+    "collegeLogo": "Indian_Institute_of_Management,_Amritsar_Logo.svg.png",
     "description": "Built a profitability-focused quick commerce strategy by improving unit economics, integrating kiranas, and optimizing supply, pricing, and rider systems.",
     "tags": ["Operations", "Supply Chain", "Unit Economics"],
     "link": "https://drive.google.com/file/d/1KCEgjrbmmN5DJbJvn57lS1C0UNaqXKrO/view?usp=sharing"
